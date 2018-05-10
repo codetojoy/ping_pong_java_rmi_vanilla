@@ -1,6 +1,4 @@
 include 'common', 'client', 
          'PingService', 'PongService', 
-         'PingServiceClient',
-         'PongServiceClient',
-         // 'PongServiceModernClient',
+         'PingServiceClient', 'PongServiceClient',
          'Registry', 'Monitor'
