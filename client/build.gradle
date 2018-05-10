@@ -9,11 +9,9 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework:spring-core:4.3.10.RELEASE'
-    compile 'org.springframework:spring-beans:4.3.10.RELEASE'
-    compile 'org.springframework.integration:spring-integration-rmi:4.3.11.RELEASE'
-    
     compile project(':common')
+    compile project(':PingServiceClient')
+    compile project(':PongServiceClient')
 }
 
 project.ext.stagingDir = 'staging'

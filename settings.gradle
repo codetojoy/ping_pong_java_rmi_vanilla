@@ -1,1 +1,6 @@
-include 'common', 'client', 'PingService', 'PongService', 'Registry', 'Monitor'
+include 'common', 'client', 
+         'PingService', 'PongService', 
+         'PingServiceClient',
+         'PongServiceClient',
+         // 'PongServiceModernClient',
+         'Registry', 'Monitor'
